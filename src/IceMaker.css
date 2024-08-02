@@ -1,0 +1,31 @@
+body {
+  background-color: #a7e9f2;
+}
+
+header {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.iceImage {
+  width: 300px;
+  height: 300px;
+}
+
+.iceImage:active {
+  transform: scale(0.9);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
